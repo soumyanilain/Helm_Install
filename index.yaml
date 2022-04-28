@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  guestbook:
+  - apiVersion: v2
+    appVersion: v4
+    created: "2022-04-28T06:10:23.532491867Z"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.5.14
+    description: A Helm chart for Kubernetes
+    digest: 6cf064f2e695d36c70bf1927b2d122d2a9da0d9808a07e47d5b209f84ad044a3
+    name: guestbook
+    type: application
+    urls:
+    - guestbook-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-04-28T06:10:23.528916705Z"
